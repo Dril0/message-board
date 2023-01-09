@@ -25,7 +25,11 @@ SECRET_KEY = "django-insecure-4+ug&#=1ir111l2d6vptujmbg2-2x6s%o73ljd3u%g_661yqxk
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    ".herokuapp.com",
+    "localhost",
+    "127.0.0.1",
+]  # Los host a los que Django tiene permitido
 
 
 # Application definition
